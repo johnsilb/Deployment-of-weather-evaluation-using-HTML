@@ -1,0 +1,56 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  /* Giving our navbar some padding and a background color */
+.navbar {
+   
+    padding: 10px;
+    font-size: 20px;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #51e3fd;
+}
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  .navbar p {
+    margin-left: 20;
+  }
+
+  .header {
+    
+    background: #cdcdcd;
+  }
+
+  .header h1 {
+    padding: 60px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
