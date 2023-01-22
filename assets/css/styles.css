@@ -4,8 +4,9 @@ body {
   }
   
 h1 {
-    font-size: 250px;
+    font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
   }
   
 h3 {
@@ -44,4 +45,31 @@ p {
     text-align: center;
   }
 
+.imageNav-photo{ 
+
+  width: 140px;
+  height: 140px;
+
+}
+
+.imageNav-photo:hover {
+  /* Visuals */
+  opacity: 0.6;
+}
+
+.imageNav-photo.active {
+  /* Visuals */
+  border: 2px solid #4aaaa5;
+}
+
+.image-nav{ 
+
+  padding: 120px 120px 120px;
   
+}
+
+.container {
+font-size: 100;
+color: #4aaaa5;
+
+}
