@@ -18,27 +18,28 @@ p {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-a {
-  font-size: 50;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  a {
+    font-size: 50;
+    font-family: Arial, Helvetica, sans-serif;
+  }
  
  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-
- .navbar li {
-    font-size: 25px;
+.navbar li {
+    font-size: 20px;
     display: inline-block;
     padding: 10px;
     margin-right: 10px;
     margin-left: 5px;
     cursor: pointer;
-    background-color: aqua;
+    background: rgb(51b8fd);
     border-radius: 3px;
     text-align: end;
   } 
 
+
+
   .header h1 {
-    padding: 10px;
+    padding: 160px;
     margin: 0;
     color: #000;
     text-align: center;
@@ -49,11 +50,6 @@ a {
   width: 140px;
   height: 140px;
 
-}
-
-.nav-link{
-  width: 140px;
-  height: 140px;
 }
 
 .imageNav-photo:hover {
@@ -68,7 +64,7 @@ a {
 
 .image-nav{ 
 
-  padding: 70px 70px 80px;
+  padding: 120px 120px 120px;
   
 }
 
@@ -76,12 +72,4 @@ a {
 font-size: 100;
 color: #4aaaa5;
 
-}
-
-.pg-hd{
-font-size: 150;
-}
-
-#White{
-  font-size: 150;
 }
