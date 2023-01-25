@@ -16,10 +16,11 @@ h3 {
 p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
   }
 
 a {
-  font-size: 50;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
  
@@ -37,51 +38,38 @@ a {
     text-align: end;
   } 
 
-  .header h1 {
-    padding: 10px;
-    margin: 0;
-    color: #000;
-    text-align: center;
-  }
+.imageNav-photo{  
 
-.imageNav-photo{ 
+  width: 200px;
+  height: 200px;
 
-  width: 140px;
-  height: 140px;
-
-}
-
-.nav-link{
-  width: 140px;
-  height: 140px;
 }
 
 .imageNav-photo:hover {
-  /* Visuals */
+
   opacity: 0.6;
 }
 
 .imageNav-photo.active {
-  /* Visuals */
+
   border: 2px solid #4aaaa5;
 }
 
 .image-nav{ 
-
-  padding: 70px 70px 80px;
-  
+padding: 70px 70px 80px;
 }
 
 .container {
 font-size: 100;
 color: #4aaaa5;
-
-}
-
-.pg-hd{
-font-size: 150;
 }
 
 #White{
   font-size: 150;
+}
+
+#comparison-link{
+
+  width: 1000px;
+  height: 200px;
 }
